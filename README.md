@@ -31,6 +31,8 @@ O tambien podrian crear una carpeta donde quieran y con shift +
 boton derecho les va a aparecer abrir ventana de powershell aqui
 o con boton derecho sobre la carpeta que quieran trabar van a ver un acceso directo a abrir con git bash.
 
+![Git Bash](https://i.imgur.com/SRJ924C.png)
+
 ### Para iniciar git en una carpeta
 ```
 git init
