@@ -102,3 +102,44 @@ git switch -c "nombre_de_nuevo_brach"
 ```
 git diff c399d0ba75752e58e35b5dba108bf5fb0b0aaee1 696e4c6d3ce8ec2e18a5a08c2df4a63629f4cb3e 
 ```
+## Segunda clase
+
+### Como clonar un repositorio, git clone url_del_repo nombre_de_la_carpeta(opcional)
+```
+git clone https://github.com/diegorodriguez93/curso_git 
+```
+### Creando un nuevo repo y subiendo a la github a traves de la consola paso a paso
+```
+mkdir mi_primer_repo_de_git
+cd mi_primer_repo_de_git
+echo "# Mi Primer repositorio en github" > README.md
+git init
+git add .
+git commit -m "mi primer commit"
+git branch -M "main"
+git remote add origin mi_primer_repo_de_git 
+git push origin main
+```
+### Para crear un nuevo branch y subirlo a github, estando en nuestro repositorio
+```
+git checkout -b "nombre_del_nuevo_branch"
+git push origin nombre_del_nuevo_branch
+```
+### para ignorar archivos de git, debemos agregar un archivo con el nombre .gitignore en la raiz del proyecto la estructura para ignorar archivos es la siguiente
+```
+# mi archivo de log
+mi.log
+
+# nueva carpeta
+nueva_carpeta/
+
+# otra carpeta crear una regla
+otra_carpeta/
+!otra_carpeta/archivo_no_ignorado
+
+# ignorar todos los archivos con cierta extension
+*.log
+
+# ignorar archivos de config
+.DS_Store
+```
