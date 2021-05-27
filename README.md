@@ -104,6 +104,13 @@ git diff c399d0ba75752e58e35b5dba108bf5fb0b0aaee1 696e4c6d3ce8ec2e18a5a08c2df4a6
 ```
 ## Segunda clase
 
+### Paso a paso de imagenes de como crear un repo en github
+
+![Paso 1](https://i.imgur.com/Gfwnx5G.png)
+![Paso 2](https://i.imgur.com/g253uQ0.png)
+![Paso 3](https://i.imgur.com/X7uGKR7.png)
+![Paso 4](https://i.imgur.com/dMfn7fK.png)
+
 ### Como clonar un repositorio, git clone url_del_repo nombre_de_la_carpeta(opcional)
 ```
 git clone https://github.com/diegorodriguez93/curso_git 
